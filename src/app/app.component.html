@@ -1,0 +1,9 @@
+<div class="col-md-12 mt-5">
+  <div class="row">
+    <ng-container *ngFor="let c of state;let i = index">
+      <div class="col-6" *ngIf="state[i]">
+        <app-grid-cmp (getCmp)="togglecmp($event)"> {{ (i+1) }}</app-grid-cmp>
+      </div>
+    </ng-container>
+  </div>
+</div>

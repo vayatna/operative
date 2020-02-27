@@ -1,0 +1,25 @@
+.container{
+    position: relative;
+}
+.col-count{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-count>span{
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 100%;
+    text-align: center;
+}
+.box {
+    border: 1px solid;
+    margin-bottom: 20px; 
+}
